@@ -2,7 +2,7 @@
 
 :root {
   --color-bg: rgb(255, 3, 3);
-  --color-fg: #fff;
+  --color-fg: #FFD700;
 
   --font-body: Mountains of Christmas;
   --font-header: Mountains of Christmas, sans-serif;
@@ -16,6 +16,8 @@
   --step-4: clamp(3.552rem, 2.8756rem + 3.382vw, 5.4967rem);
   --step-5: clamp(4.7348rem, 3.6783rem + 5.2826vw, 7.7723rem);
 }
+
+
 
 html, body {
     height: 100vh;
@@ -56,3 +58,12 @@ canvas {
     left: 0;
     z-index: 0;
 }
+
+img{
+    height:4rem;
+    width:6rem;
+}
+
+body {
+    background: url(https://plus.unsplash.com/premium_photo-1670493556860-13e006e6faa4?q=80&w=1897&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  }

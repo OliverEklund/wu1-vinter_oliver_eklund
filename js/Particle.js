@@ -10,16 +10,12 @@ class Particle {
   }
 
   draw() {
-    const img = document.getElementById("happy santa.png");
-    // img, x, y, w, h
-    ctx.drawImage(this.x, this.y, this.size, 10, pi2, false);
+    ctx.beginPath();
+    ctx.arc(this.x, this.y, this.size, 0, pi2, false);
+    ctx.fillStyle = this.color;
+    ctx.fill();
   }
 
-  //draw() {
-  //  ctx.arc(this.x, this.y, this.size, 0, pi2, false);
-  //  ctx.fillStyle = this.color;
-  //  ctx.fill();
-  //}
 
   update() {
     this.y += this.dy;
